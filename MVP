@@ -1,0 +1,61 @@
+**THE MAZE PROJECT - MVP**
+*(A 3D Game created with SDL2)*
+
+**Minimum Viable Product (MVP) Overview for Maze Game:**
+
+**Core Features:**
+
+1. **Maze Structure:** 
+   - Design the maze using a 2D array where walls are represented by rectangles or lines.
+   - Utilize the SDL2 graphics library to draw the maze layout on the screen.
+
+2. **Player Control:** 
+   - Implement basic movement and orientation using the arrow keys for navigation within the maze.
+   - Handle user inputs through the SDL_Event system, allowing the player to move forward, backward, and rotate.
+
+3. **Movement Logic:** 
+   - Develop a system for the player's movement in all directions (forward, backward, left, right).
+   - Update the player's position dynamically based on the input and current orientation.
+
+4. **Collision Detection:** 
+   - Implement collision logic so that the player can't pass through walls.
+   - If the player attempts to move into a wall, the movement should be blocked.
+
+5. **Maze Parser:** 
+   - Create a simple file parser to load maze data from a text file into a 2D array for rendering.
+
+6. **Map Rendering:** 
+   - Visualize the maze on the screen based on the loaded data.
+   - Use distinct colors for walls, floors, and ceilings for visual clarity.
+
+7. **Textures:** 
+   - Add basic textures to the walls using SDL2's texture rendering functions, enhancing the visual appeal.
+
+These represent the foundational features required to create a functional maze game with SDL2.
+
+---
+
+**USER STORY:**
+
+As a player, I want to engage with a maze game built using SDL2 that offers an exciting challenge, where I can test my speed and accuracy in solving the maze.
+
+**Main Menu:**
+- Upon starting the game, I want to be presented with a main menu offering options to start a new game, load a saved game, or quit.
+- When starting a new game, I want to choose the maze difficulty, including its size and the number of obstacles.
+
+**Gameplay Experience:**
+- Once inside the game, I expect to see a maze rendered on the screen, with a character that I control using the arrow keys. 
+- The movement of the character should feel smooth and responsive, without any noticeable delay or lag.
+- A timer should be visible, counting down the time I have left to complete the maze, along with a score that reflects my progress.
+
+**Challenges and Rewards:**
+- As I navigate through the maze, I want to encounter rewards like coins that increase my score, and obstacles that slow me down or make the maze more difficult to navigate.
+- Reaching the end of the maze should trigger a message congratulating me, showing my final score and the time it took to complete the maze.
+
+**Save Feature:**
+- I want the ability to save my progress so I can return to the game at a later time.
+
+**Audio and Visuals:**
+- Throughout the game, I want immersive sound effects that match my actions (e.g., collecting coins or hitting obstacles).
+- A background soundtrack should enhance the game’s atmosphere, adding to the excitement and challenge.
+- The graphics should be visually engaging, with smooth animations and high-quality designs that keep me immersed in the gameplay.
